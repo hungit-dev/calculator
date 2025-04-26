@@ -133,16 +133,3 @@ calculatorButtons.forEach(function (button) {
     clear(button);
   });
 });
-
-function clear(Value) {
-  if (Value.textContent === "clear") {
-    calculatorDisplay.textContent = "";
-    firstOperand = "";
-    operator = "";
-    secondOperand = "";
-    result = "";
-    isFisrtOperandCompleted = false;
-    isSecondOperatorExist = false;
-    resultExist = false;
-  }
-}
